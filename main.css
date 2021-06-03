@@ -1,0 +1,180 @@
+body {
+     background-image: url("./starter_image/2021-06-02.png");
+     background-size: cover;
+     background-color: rgba(126, 49, 49, 0.4);
+      }
+/* h1{
+    color:red
+} */
+.image img{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    height:50px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: thin;
+    /* background-image: url("./starter_image/spice.jpg"); */
+    align-content: center;
+    
+
+}
+
+.flexbox a{
+    color:black;
+
+}
+
+
+.flexbox{
+    display:flex;
+    height:fit-content;
+    align-items: center;
+    background-color: transparent;
+    color:rgb(24, 230, 93); 
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+#box4 img{
+    /* display : flex; */
+    width :20px;
+    height : 20px;
+    /* ruby-align: left; */
+    
+
+}
+
+
+.btn{
+    border-radius: 8px;
+    font-size: 20px;
+    
+    
+    width: 90px;
+    background-color: transparent;
+}
+
+.heading{
+    text-align: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border-width: 10px;
+
+}
+
+
+
+.para{
+    display:flex;
+    height:fit-content;
+    /* width : 30%; */
+    /* align-items: center; */
+    text-align: center;
+    border-radius: 30px;
+    color : black; 
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:whitesmoke;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 5px;
+}
+
+.starters{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    height:20px;
+    flex-wrap: nowrap;
+    /* justify-content: flex-end; */
+    border: thin;
+    /* background-image: url("./starter_image/spice.jpg"); */
+    align-content: center;
+    background-color: teal;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 5px;
+    
+  
+}
+
+.starters{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height:fit-content;
+    flex-wrap: nowrap;
+    
+    /* justify-content: flex-end; */
+    border: thin;
+    /* background-image: url("./starter_image/spice.jpg"); */
+    align-content: center;
+    background-color: teal;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 5px;
+}
+
+#title{
+  text-align: center;
+  font-size:30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.but{
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.res{
+ 
+  text-align: center;
+  border-radius:5px;
+    padding: 10px;
+/*     margin: 5px; */
+    border-style:ridge;
+  font-family:Open Sans,Helvetica,Arial,sans-serif;
+ 
+  
+}
+
+.res:hover{
+  background-color:white;
+}
+
+/* .rec{
+        display: flex;
+        flex-direction: column;
+        width:fit-content;
+        height:20px;
+        flex-wrap: nowrap;
+        /* justify-content: flex-end; */
+        /* border: thin;
+        /* background-image: url("./starter_image/spice.jpg"); */
+        /* align-content: center;
+        background-color:wheat;
+        opacity: 0.5;
+        padding: 10px;
+        margin: 5px;
+} */
+ 
+
+/* #box1, #box2 , #box3{
+    background-color: indianred;
+} */
