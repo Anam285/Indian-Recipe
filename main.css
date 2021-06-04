@@ -16,13 +16,19 @@ body {
 .boxes{
     display: flex;
     flex-direction: row;
-    height:50px;
+    height:fit-content;
     flex-wrap: wrap;
     justify-content: flex-end;
     border: thin;
     /* background-image: url("./starter_image/spice.jpg"); */
     align-content: center;
     
+
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
 
 }
 
@@ -34,11 +40,12 @@ body {
 
 .flexbox{
     display:flex;
+    flex-wrap: wrap;
     height:fit-content;
     align-items: center;
     background-color: transparent;
-    color:rgb(24, 230, 93); 
-    font-size: 70px;
+    color : black; 
+    font-size: 50x;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 5px;
@@ -64,7 +71,7 @@ body {
     font-size: 20px;
     
     
-    width: 90px;
+    /* width: 90px; */
     background-color: transparent;
 }
 
@@ -82,8 +89,7 @@ body {
 .para{
     display:flex;
     height:fit-content;
-    /* width : 30%; */
-    /* align-items: center; */
+   
     text-align: center;
     border-radius: 30px;
     color : black; 
@@ -98,9 +104,11 @@ body {
 .starters{
     display: flex;
     flex-direction: column;
-    width:fit-content;
-    height:20px;
+    width:30%;
+    height:fit-content;
     flex-wrap: nowrap;
+    border-radius: 10px;
+    
     /* justify-content: flex-end; */
     border: thin;
     /* background-image: url("./starter_image/spice.jpg"); */
@@ -109,26 +117,34 @@ body {
     opacity: 0.5;
     padding: 10px;
     margin: 5px;
-    
-  
 }
 
-.starters{
+#one:hover #recipe-picture{
+    width: 330px;
+    height:330px;
+    display:inline-block;
+
+}
+
+#recipe-picture{
+    display:none;
+}
+
+
+/* .starters{
     display: flex;
     flex-direction: column;
     width:30%;
     height:fit-content;
-    flex-wrap: nowrap;
-    
-    /* justify-content: flex-end; */
+    flex-wrap: wrap;
+    border-radius: 10px;
     border: thin;
-    /* background-image: url("./starter_image/spice.jpg"); */
     align-content: center;
     background-color: teal;
     opacity: 0.5;
     padding: 10px;
     margin: 5px;
-}
+} */
 
 #title{
   text-align: center;
@@ -178,3 +194,21 @@ body {
 /* #box1, #box2 , #box3{
     background-color: indianred;
 } */
+
+.mains{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height:fit-content;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    
+    /* justify-content: flex-end; */
+    border: thin;
+    /* background-image: url("./starter_image/spice.jpg"); */
+    align-content: center;
+    background-color:darkkhaki;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 5px;
+}
